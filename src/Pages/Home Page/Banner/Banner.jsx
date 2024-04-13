@@ -1,4 +1,5 @@
 import banner_bg from "../../../assets/images/banner-bg.webp"
+import CountUp from 'react-countup';
 
 const Banner = () => {
     return (
@@ -11,6 +12,22 @@ const Banner = () => {
                     <button className="btn-neutral btn bg-black md:text-[15px] text-swhite hover:text-white px-8 rounded-[2rem] border-[1px] border-gray-200 shadow-none">Learn More</button>
                     <button className="btn-neutral btn bg-white md:text-[15px] text-slate-700 hover:text-white px-8 rounded-[2rem] border-[1px] border-gray-200 shadow-none">Browse Projects</button>
                 </div>
+
+                <div className="mt-8 flex gap-4">
+                    <div className="border-2 w-fit px-8 py-4 rounded-3xl border-white hover:border-black">
+                        <h1 className="text-4xl font-bold"><CountUp className="text-4xl font-bold" end={200} />+</h1>
+                        <h3 className="mt-2 text-lg font-medium text-gray-600">Happy Customers</h3>
+                    </div>
+                    <div className="border-2 w-fit px-8 py-4 rounded-3xl border-black hover:border-white">
+                        <h1 className="text-4xl font-bold"><CountUp className="text-4xl font-bold" end={10} />k</h1>
+                        <h3 className="mt-2 text-lg font-medium text-gray-600">Properties For Clients</h3>
+                    </div>
+                    <div className="border-2 w-fit px-8 py-4 rounded-3xl border-white hover:border-black">
+                        <h1 className="text-4xl font-bold"><CountUp className="text-4xl font-bold" end={16} />+</h1>
+                        <h3 className="mt-2 text-lg font-medium text-gray-600">Years of Experience</h3>
+                    </div>
+                </div>
+
             </div>
             <div>
                 <img src={banner_bg} alt="" />
