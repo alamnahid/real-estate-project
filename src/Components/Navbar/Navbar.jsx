@@ -2,7 +2,8 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logo.png"
 const Navbar = () => {
     return (
-        <div className="mx-[5%] mt-4">
+       <div className="fixed w-full bg-white">
+         <div className="pt-3 mx-[5%]">
             <div className="navbar bg-[#FAFAFA] px-[2%] rounded-[2rem] py-3">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -31,11 +32,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn">Contact Us</button>
+                    <button className="btn-neutral btn bg-white text-[15px] text-slate-700 hover:text-white px-8 rounded-[2rem] border-[1px] border-gray-200 shadow-none">Contact Us</button>
                 </div>
             </div>
 
         </div>
+       </div>
     );
 };
 
