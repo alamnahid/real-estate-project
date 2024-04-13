@@ -1,0 +1,20 @@
+.ongoing{
+    background-image: url('../../../assets/images/ongoing.jpg'), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.upcoming{
+    background-image: url('../../../assets/images/upcoming.jpg'), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.completed{
+    background-image: url('../../../assets/images/completed.jpg'), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
